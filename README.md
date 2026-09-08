@@ -1,3 +1,53 @@
+# 🛡️ EduGuard AI
+
+AI-Powered Exam Proctoring Risk Detection
+
+## Overview
+
+EduGuard AI is an AI-based exam proctoring system designed
+to identify potential cheating behavior using behavioral signals.
+
+## Features
+
+- Eye gaze analysis
+- Audio level monitoring
+- Tab-switch detection
+- Rolling behavioral features
+- Cheating probability prediction
+- Automated risk flagging
+
+## Tech Stack
+
+### Frontend
+- React.js
+- JavaScript
+- CSS
+
+### Backend
+- Python
+- Machine Learning
+- REST API
+
+## Architecture
+
+User → React Frontend → REST API → ML Model → Risk Prediction
+
+## Output
+
+The system provides:
+
+- Cheating probability
+- Risk/flag status
+
+## Running Locally
+
+### Frontend
+
+```bash
+npm install
+npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
